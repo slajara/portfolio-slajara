@@ -33,13 +33,13 @@ function Hero() {
         </h1>
 
         <div className="pt-5">
-        <Link href="#about">
+          <Link href="#about">
             <button className="heroButtom">About</button>
           </Link>
           <Link href="#experience">
             <button className="heroButtom">Experience</button>
           </Link>
-         
+
           <Link href="#skills">
             <button className="heroButtom">Skills</button>
           </Link>
