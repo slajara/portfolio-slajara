@@ -16,9 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-    <body className="bg-blue-100">
-      {children}
-    </body>
-  </html>
+      <body className="bg-[#363636] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">{children}</body>
+    </html>
   );
 }
