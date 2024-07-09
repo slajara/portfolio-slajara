@@ -3,6 +3,7 @@
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
+import Link from "next/link";
 
 function Hero() {
   const [text, count] = useTypewriter({
@@ -22,7 +23,7 @@ function Hero() {
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
       />
 
-      <div>
+      <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Software Engineer
         </h2>
@@ -30,10 +31,22 @@ function Hero() {
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#0AABF7" />
         </h1>
-        <div className="heroButtom">About</div>
-        <div className="heroButtom">Experience</div>
-        <div className="heroButtom">Skills</div>
-        <div className="heroButtom">Projects</div>
+
+        <div className="pt-5">
+        <Link href="#about">
+            <button className="heroButtom">About</button>
+          </Link>
+          <Link href="#experience">
+            <button className="heroButtom">Experience</button>
+          </Link>
+         
+          <Link href="#skills">
+            <button className="heroButtom">Skills</button>
+          </Link>
+          <Link href="#projects">
+            <button className="heroButtom">Projects</button>
+          </Link>
+        </div>
       </div>
     </div>
   );
