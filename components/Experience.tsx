@@ -15,7 +15,7 @@ function Experience() {
         Experience
       </h3>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-thumb-[#0AABF7]/80">
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
