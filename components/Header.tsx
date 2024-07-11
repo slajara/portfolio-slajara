@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
+    <div className="top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
       <motion.div
         initial={{
           x: -500,
@@ -27,17 +27,16 @@ function Header() {
           url="https://www.linkedin.com/in/samuel-lajara-agullo/"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
         <SocialIcon
           url="https://github.com/slajara"
           fgColor="gray"
           bgColor="transparent"
+          target="_blank"
         />
       </motion.div>
 
-
-      
-      <Link href="#contact">
       <motion.div
         initial={{
           x: 500,
@@ -54,20 +53,19 @@ function Header() {
         }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
-        
-          <SocialIcon
-            className="cursor-pointer"
-            network="email"
-            fgColor="gray"
-            bgColor="transparent"
-          />
-
+        <SocialIcon
+          className="cursor-pointer"
+          network="email"
+          fgColor="gray"
+          bgColor="transparent"
+          href="#contact"
+        />
+        <Link href="#contact">
           <p className="uppercase hiden md:inline-flex text-sm text-gray-400">
             Get In Touch
           </p>
-        
+        </Link>
       </motion.div>
-      </Link>
     </div>
   );
 }

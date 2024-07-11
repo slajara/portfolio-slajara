@@ -7,7 +7,7 @@ import Link from "next/link";
 
 function Hero() {
   const [text, count] = useTypewriter({
-    words: ["Hi, I'm Samuel Lajara", "Software Engineer", "Web Developer"],
+    words: ["Hi, I'm Samuel", "{ Love Code }", "Web Developer"],
     loop: true,
     delaySpeed: 2000,
   });
