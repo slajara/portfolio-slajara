@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Skill from "./SkillCard";
-import { skillsWork } from "../data/skillsData";
+import SkillCard from "./SkillCard";
+import { skillsData } from "../data/skillsData";
 
 const Skills: React.FC = () => {
   return (
@@ -21,8 +21,8 @@ const Skills: React.FC = () => {
       </h3>
 
       <div className="grid grid-cols-4 gap-4 mt-40">
-        {skillsWork.map((skill, index) => (
-          <Skill key={index} directionLeft={index % 2 === 0} {...skill} />
+        {skillsData.map((skill, index) => (
+          <SkillCard key={index} directionLeft={index % 2 === 0} {...skill} />
         ))}
       </div>
     </motion.div>

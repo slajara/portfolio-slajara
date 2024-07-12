@@ -1,10 +1,10 @@
-export interface SkillsWorksProps {
+export interface SkillsProps {
   tech: string;
   img: string;
   level: string;
 }
 
-export const skillsWork: SkillsWorksProps[] = [
+export const skillsData: SkillsProps[] = [
   {
     tech: "JavaScript",
     img: "/javascript.svg",

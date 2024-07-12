@@ -1,27 +1,43 @@
-export interface ExperienceWorksProps {
+export interface ExperiencesProps {
+  img: string;
   position: string;
   business: string;
   tech: string;
-  functions: string;
+  functions: string[];
 }
 
-export const experienceWorks: ExperienceWorksProps[] = [
+export const experiencesData: ExperiencesProps[] = [
   {
+    img: "/me.jpg",
     position: "Software Engineer",
-    business: "Indra",
-    tech: "Ada, C++",
-    functions: "Developed software using Ada and C++ for various projects.",
+    business: "Indra - Air Manage Traffic",
+    tech: "Ada, C++, Linux",
+    functions: [
+      "Developed software using Ada and C++ for various projects.",
+      "Second function",
+      "Hello World",
+    ],
   },
   {
-    position: "Co-founder",
-    business: "Shisha",
-    tech: "Web, Excel",
-    functions: "Managed web development and business operations.",
+    img: "/me.jpg",
+    position: "Software Engineer",
+    business: "Indra - Air Manage Traffic",
+    tech: "Ada, C++, Linux",
+    functions: [
+      "Developed software using Ada and C++ for various projects.",
+      "Second function",
+      "Hello World",
+    ],
   },
   {
-    position: "Supermarket Staff",
-    business: "Dialprix",
-    tech: "Excel, C++",
-    functions: "Handled inventory management and customer service.",
+    img: "/me.jpg",
+    position: "Software Engineer",
+    business: "Indra - Air Manage Traffic",
+    tech: "Ada, C++, Linux",
+    functions: [
+      "Developed software using Ada and C++ for various projects.",
+      "Second function",
+      "Hello World",
+    ],
   },
 ];

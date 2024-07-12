@@ -3,14 +3,14 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-interface ExperienceCardProps {
+interface ExperiencesProps {
   position: string;
   business: string;
   tech: string;
-  functions: string;
+  functions: string[];
 }
 
-export const ExperienceCard: React.FC<ExperienceCardProps> = ({
+export const ExperienceCard: React.FC<ExperiencesProps> = ({
   position,
   business,
   tech,
@@ -71,11 +71,9 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
 
         <p className="uppercase py-5 text-gray-300"> Start work .. - end</p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>{functions}</li>
-          <li>{functions}</li>
-          <li>{functions}</li>
-          <li>{functions}</li>
-          <li>{functions}</li>
+          {functions.map((func, index) => (
+            <li key={index}>{func}</li>
+          ))}
         </ul>
       </div>
     </article>

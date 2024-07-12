@@ -4,15 +4,15 @@ type Props = {
   directionLeft?: boolean;
 };
 
-interface SkillsWorksProps {
+interface SkillsProps {
   tech: string;
   img: string;
   level: string;
 }
 
-type CombinedProps = Props & SkillsWorksProps;
+type CombinedProps = Props & SkillsProps;
 
-const Skill: React.FC<CombinedProps> = ({
+const SkillCard: React.FC<CombinedProps> = ({
   directionLeft,
   tech,
   img,
@@ -44,4 +44,4 @@ const Skill: React.FC<CombinedProps> = ({
   );
 };
 
-export default Skill;
+export default SkillCard;
