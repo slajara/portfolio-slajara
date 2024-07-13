@@ -10,6 +10,7 @@ interface ProjectProps {
 }
 
 export const ProjectCard: React.FC<ProjectProps> = ({
+  img,
   project,
   description,
   tech,
@@ -21,9 +22,9 @@ export const ProjectCard: React.FC<ProjectProps> = ({
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        src="/me.jpg"
+        src={img}
         alt="Me"
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        className="relative mx-auto object-cover"
       />
       <div className="space-y-10 px-0 md:px-10 max-w-6xl">
         <h4 className="text-4xl font-semibold text-center">

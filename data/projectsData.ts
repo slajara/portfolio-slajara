@@ -9,20 +9,20 @@ export interface ProjectsProps {
 
 export const projectsData: ProjectsProps[] = [
   {
-    img: "string",
-    project: "pro 1",
+    img: "/projects/mrcrypto-marketplace.png",
+    project: "Marketplace",
     tech: "string",
     description:
-      "description1 description1 description1 description1 description1 description1 description1 description1description1 description1description1description1description1description1description1description1description1description1 ",
+      "description1 description1 description1 description1 ",
     github: "string",
     url: "string",
   },
   {
-    img: "string",
-    project: "pro 2",
+    img: "/projects/project-generator.png",
+    project: "Generator",
     tech: "string",
     description:
-      "description2description2description2description2description2description2",
+      "description2description2description2de scription2description2description2",
     github: "string",
     url: "string",
   },
