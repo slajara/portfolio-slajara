@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
+    <div className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
       <motion.div
         initial={{
           x: -500,
@@ -61,7 +61,7 @@ function Header() {
           href="#contact"
         />
         <Link href="#contact">
-          <p className="uppercase hiden md:inline-flex text-sm text-gray-400">
+          <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
             Get In Touch
           </p>
         </Link>

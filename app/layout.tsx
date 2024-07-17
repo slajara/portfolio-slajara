@@ -16,11 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className="bg-[#363636] text-white h-screen snap-y snap-mandatory overflow-y-scroll 
-      overflow-x-hidden z-0 scrollbar scrollbar-thumb-[#0AABF7]/80"
-      >
-        {children}
+      <body>
+      {children}
       </body>
     </html>
   );

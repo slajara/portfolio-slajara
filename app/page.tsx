@@ -10,7 +10,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main>
+    <main
+      className="bg-[#363636] text-white h-screen snap-y snap-mandatory overflow-y-scroll z-0 scrollbar scrollbar-thumb-[#0AABF7]/80">
+      
       <Header />
 
       <section id="hero" className="snap-start">
@@ -42,7 +44,7 @@ export default function Home() {
           <div className="flex items-center justify-center">
             <Image
               priority={true}
-              src="/me.jpg"
+              src="/others/me_hero.jpg"
               alt=""
               width={100}
               height={100}
