@@ -1,7 +1,7 @@
 export interface ExperiencesProps {
   img: string;
   position: string;
-  business: string;
+  company: string;
   tech: string[];
   date: string;
   functions: string[];
@@ -9,64 +9,62 @@ export interface ExperiencesProps {
 
 export const experiencesData: ExperiencesProps[] = [
   {
-    img: "business/indra.svg",
-    position: "Software Engineer",
-    business: "Indra - Air Management Traffic",
+    img: "company/indra.svg",
+    position: "Frontend Developer",
+    company: "Indra",
     tech: [
-      "skills/typescript.svg",
+      "skills/javascript.svg",
       "skills/react.svg",
       "skills/css.svg",
     ],
     date: "FEB/2023 .. - JUN/2024",
     functions: [
-      "Generated and manipulated client data using Linux operating systems.",
-      "Programmed extensively in Bash, ADA, and C++, managing data in XML format.",
-      "Managed and controlled tasks using Jira and Excel, ensuring project deadlines and deliverables were met.",
-      "Designed, implemented, and managed SQL databases to optimize data storage and retrieval.",
+      "Implementation of reusable and efficient components using React, improving development speed and efficiency.",
+      "Consuming RESTful APIs to interact with backend services, ensuring seamless communication between frontend and backend.",
+      "Developing responsive user interfaces using CSS3 and Bootstrap.",
     ],
   },
   {
-    img: "business/mrcrypto.png",
-    position: "FullStack Developer",
-    business: "MrCrypto Community",
+    img: "company/mrcrypto.png",
+    position: "FullStack Web 3.0",
+    company: "Mr. Crypto NFT Community",
     tech: [
       "skills/typescript.svg",
-      "skills/react.svg",
-      "skills/css.svg",
+      "skills/nextjs.svg",
+      "skills/nodejs.svg",
+      "skills/solidity.svg",
     ],
     date: "SEP/2023 .. - FEB/2024",
     functions: [
-      "Developed an NFT marketplace as part of a collaborative team using SCRUM methodology, utilizing Next.JS, Node.JS, and Hardhat.",
-      "Created a collection of ERC721 and E7L tokens, including smart contracts and frontend development.",
+      "Developed an NFT marketplace as part of a collaborative team using SCRUM methodology",
+      "Created a mock collection of ERC721 and E7L tokens.",
       "Built a DApp for creating NFT collections via web forms, supporting ERC721 and ERC1155 standards using factory smart contracts.",
     ],
   },
   {
-    img: "/business/umh.png",
+    img: "company/umh.png",
     position: "Studies",
-    business: "University",
+    company: "University + Bootcamp",
     tech: [
-      "/business/umh.png",
-      "/business/disrup3.png",
-      "skills/css.svg",
+      "/company/umh.png",
+      "/company/disrup3.png",
+      "/company/racks.jpg",
     ],
     date: "ALWAYS LEARNING",
     functions: [
-      "Software Engineer \u2192 Miguel Hernandez University \u2192 SEP/2018 .. - JUN/2023 JAJAJSJSJAJAJJAJAJAAJAJAJA AJAJJAJAJ AJAJAJAJ",
-      "FullStack Web3 \u2192 Disrup3 \u2192 FEB/2023 .. - SEP/2023",
-      "Artificial Intelligence \u2192  Racks Labs & Rey Juan Carlos University  \u2192 FEB/2024 .. - MAY/2024",
+      "Computer engineering in information technology \u2192 Miguel Hernandez University.",
+      "Bootcamp FullStack Web 3.0 \u2192 Disrup3",
+      "Artificial Intelligence tools \u2192  Racks Labs & Rey Juan Carlos University",
     ],
   },
   {
-    img: "others/me.jpg",
-    position: "Co-Funder",
-    business: "Shisha Dark Lagend",
+    img: "company/shisha.png",
+    position: "Co Funder",
+    company: "Shisha Dark Lagend",
     tech: [
-      "skills/typescript.svg",
-      "skills/react.svg",
-      "skills/css.svg",
+      "skills/excel.svg",
     ],
-    date: "SEP/2018 .. - MAR/2020",
+    date: "JUL/2018 .. - MAR/2020",
     functions: [
       "Communicated with customers and handled sales, ensuring a positive and engaging experience.",
       "Managed overall organization and logistics of the business, ensuring smooth operations and efficient service delivery.",

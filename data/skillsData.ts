@@ -8,7 +8,7 @@ export const skillsData: SkillsProps[] = [
   {
     tech: "JavaScript",
     img: "skills/javascript.svg",
-    level: "90%",
+    level: "80%",
   },
   {
     tech: "TypeScript",
@@ -23,42 +23,46 @@ export const skillsData: SkillsProps[] = [
   {
     tech: "React.JS",
     img: "skills/react.svg",
-    level: "100%",
+    level: "90%",
   },
   {
     tech: "HTML5",
     img: "skills/html.svg",
-    level: "100%",
+    level: "90%",
   },
   {
     tech: "CSS3",
     img: "skills/css.svg",
-    level: "100%",
+    level: "90%",
   },
   {
     tech: "Node.JS",
     img: "skills/nodejs.svg",
-    level: "100%",
+    level: "70%",
   },
   {
     tech: "PostgreSQL",
     img: "skills/postgresql.svg",
-    level: "100%",
+    level: "70%",
   },
   {
     tech: "Solidity",
     img: "skills/solidity.svg",
-    level: "100%",
+    level: "70%",
   },
   {
     tech: "Hardhat",
-    img: "skills/solidity.svg",
-    level: "100%",
+    img: "skills/hardhat.svg",
+    level: "80%",
   },
   {
-    tech: "Foundry",
-    img: "skills/solidity.svg",
-    level: "100%",
+    tech: "Github",
+    img: "skills/github.svg",
+    level: "90%",
   },
-
+  {
+    tech: "Docker",
+    img: "skills/docker.svg",
+    level: "60%",
+  },
 ];

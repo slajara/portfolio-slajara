@@ -6,7 +6,7 @@ import Image from "next/image";
 interface ExperiencesProps {
   img: string;
   position: string;
-  business: string;
+  company: string;
   tech: string[];
   date: string;
   functions: string[];
@@ -15,7 +15,7 @@ interface ExperiencesProps {
 export const ExperienceCard: React.FC<ExperiencesProps> = ({
   img,
   position,
-  business,
+  company,
   tech,
   date,
   functions,
@@ -36,7 +36,7 @@ export const ExperienceCard: React.FC<ExperiencesProps> = ({
       />
       <div className="px-0 md:px-10">
         <h4 className="text-2xl md:text-3xl xl:text-4xl font-light">{position}</h4>
-        <p className="text-1xl md:text-2xl font-bold  mt-1"> {business}</p>
+        <p className="text-1xl md:text-2xl font-bold mt-1"> {company}</p>
         <div className="flex space-x-2 my-2">
           {tech.map((tech, index) => (
             <Image

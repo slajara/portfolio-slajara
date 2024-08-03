@@ -24,7 +24,7 @@ function About() {
           className="mb-0 md:mb-0 flex-shrink-0 w-56 h-56 md:w-[350px] md:h-[450px] xl:w-[500px] xl:h-[600px] rounded-full overflow-hidden md:rounded-lg"
           >
             <Image
-              src="/others/me_about.jpg"
+              src="/me/about.jpg"
               alt="Me"
               width={3000}
               height={4000}

@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
 
 interface ProjectProps {
   img: string;
   project: string;
-  tech: string;
   description: string;
   github: string;
   url: string;
@@ -20,7 +21,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   img,
   project,
   description,
-  tech,
+  github,
+  url,
 }) => {
   return (
     <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
@@ -42,6 +44,32 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
         </h4>
 
         <p className="text-lg text-center md:text-left">{description}</p>
+      </div>
+      <div className="flex space-x-10 ">
+      <Link href={github} legacyBehavior>
+          <a target="_blank" rel="noopener noreferrer">
+      <Image
+              src="/skills/github.svg"
+              alt="Github Link"
+              width={56}
+              height={56}
+              className="w-14 h-14 md:w-20 md:h-20 object-cover"
+              priority={true}
+            />
+             </a>
+        </Link>
+        <Link href={url} legacyBehavior>
+          <a target="_blank" rel="noopener noreferrer">
+            <Image
+              src="/favicon.ico"
+              alt="Vercel Link"
+              width={56}
+              height={56}
+              className="w-14 h-14 md:w-20 md:h-20 object-cover"
+              priority={true}
+            />
+              </a>
+        </Link>
       </div>
     </div>
   );
