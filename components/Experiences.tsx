@@ -12,11 +12,11 @@ function Experiences() {
       whileInView={{ opacity: 1 }}
       className="h-screen flex flex-col relative overflow-hidden text-left md:flex-row max-w-full px-10 justify-start md:justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-24 md:top-24 mb-12 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 mb-10 uppercase tracking-[20px] text-gray-500 text-2xl">
         Experiences
       </h3>
 
-      <div className="mt-32 md:mt-48 w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-thumb-[#0AABF7]/80">
+      <div className="mt-32 w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory z-20 scrollbar scrollbar-thumb-[#0AABF7]/50">
         {experiencesData.map((project, index) => {
           return <ExperienceCard key={index} {...project} />;
         })}

@@ -15,12 +15,12 @@ function Hero() {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        priority={true}
         src="/others/me_hero.jpg"
         alt="My Profile"
         width={300}
         height={300}
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        className="relative rounded-full h-32 w-32 object-cover"
+        priority={true}
       />
 
       <div className="z-20">

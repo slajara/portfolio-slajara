@@ -29,15 +29,15 @@ function Contact() {
           <span className="underline decoration-[#0AABF7]/50">Lets Talk.</span>
         </h4>
 
-        <div className="space-y-10">
+        <div className="space-y-5">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#0AABF7] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+3334443</p>
+            <p className="text-2xl">+353 083 047 3631</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#0AABF7] h-7 w-7 animate-pulse" />
-            <p className="text-2xl"> helloworld@gmail.com</p>
+            <p className="text-2xl"> lajara.agullo@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
@@ -48,9 +48,9 @@ function Contact() {
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex flex-col space-y-2 w-full px-5 md:px-0"
         >
-          <div className="flex space-x-2">
+         
             <input
               {...register("name")}
               placeholder="Name"
@@ -63,7 +63,7 @@ function Contact() {
               className="contactInput"
               type="email"
             />
-          </div>
+          
 
           <input
             {...register("subject")}

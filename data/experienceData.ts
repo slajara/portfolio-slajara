@@ -39,7 +39,6 @@ export const experiencesData: ExperiencesProps[] = [
       "Developed an NFT marketplace as part of a collaborative team using SCRUM methodology, utilizing Next.JS, Node.JS, and Hardhat.",
       "Created a collection of ERC721 and E7L tokens, including smart contracts and frontend development.",
       "Built a DApp for creating NFT collections via web forms, supporting ERC721 and ERC1155 standards using factory smart contracts.",
-      "Developed a Python bot to interpret candlestick data using the Binance API, providing real-time trading insights.",
     ],
   },
   {

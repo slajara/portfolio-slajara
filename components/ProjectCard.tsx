@@ -9,7 +9,14 @@ interface ProjectProps {
   url: string;
 }
 
-export const ProjectCard: React.FC<ProjectProps> = ({
+interface ProjectCardProps extends ProjectProps {
+  index: number;
+  totalProjects: number;
+}
+
+export const ProjectCard: React.FC<ProjectCardProps> = ({
+  index,
+  totalProjects,
   img,
   project,
   description,
@@ -24,15 +31,14 @@ export const ProjectCard: React.FC<ProjectProps> = ({
         viewport={{ once: true }}
         src={img}
         alt="Me"
-        className="relative mx-auto object-cover"
+        className="relative mx-auto object-cover w-72 md:w-[500px] xl:w-[750px]"
       />
       <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-        <h4 className="text-4xl font-semibold text-center">
-          {" "}
-          <span className="underline decoration-[#0AABF7]/50">
-            Case Study
+        <h4 className="text-2xl font-semibold text-center">
+          Project {index + 1} of {totalProjects} <br/>
+          <span className="text-4xl underline decoration-[#0AABF7]/50">
+            {project}
           </span>{" "}
-          {project}
         </h4>
 
         <p className="text-lg text-center md:text-left">{description}</p>

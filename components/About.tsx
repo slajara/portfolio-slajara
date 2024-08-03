@@ -26,9 +26,10 @@ function About() {
             <Image
               src="/others/me_about.jpg"
               alt="Me"
-              width={3008}
+              width={3000}
               height={4000}
               className="object-cover"
+              priority={true}
             />
         </motion.div>
 
