@@ -20,7 +20,7 @@ const Skills: React.FC = () => {
         Hover over a skill for current proficiency
       </h3>
  
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-3 md:grid-cols-4 gap-4">
         {skillsData.map((skill, index) => (
           <SkillCard key={index} directionLeft={index % 2 === 0} {...skill} />
         ))}

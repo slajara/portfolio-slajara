@@ -44,7 +44,7 @@ export default function Home() {
           <div className="flex items-center justify-center">
             <Image
               priority={true}
-              src="/others/me_hero.jpg"
+              src="/me/hero.jpg"
               alt=""
               width={100}
               height={100}

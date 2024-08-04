@@ -22,17 +22,17 @@ export const ExperienceCard: React.FC<ExperiencesProps> = ({
 }) => {
   return (
     <article
-      className="flex flex-col rounded-lg items-center space-y-5 flex-shrink-0 w-[300px] md:w-[700px] xl:w-[900px] 
-    snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
+      className="flex flex-col rounded-lg items-center space-y-5 flex-shrink-0 w-[220px] md:w-[700px] xl:w-[900px] 
+    snap-center bg-[#292929] p-2 md:p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
     >
       <motion.img
-        initial={{ y: -100, opacity: 0, }}
-        transition={{ duration: 1.2, }}
-        whileInView={{ opacity: 1, y: 0, }}
+        initial={{ y: -50, opacity: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
         viewport={{ once: true }}
         src={img}
         alt="Me"
-        className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-contain object-center"
+        className="w-20 h-20 md:w-32 md:h-32 rounded-full xl:w-[200px] xl:h-[200px] object-contain object-center"
       />
       <div className="px-0 md:px-10">
         <h4 className="text-2xl md:text-3xl xl:text-4xl font-light">{position}</h4>
@@ -46,7 +46,7 @@ export const ExperienceCard: React.FC<ExperiencesProps> = ({
               alt={`Tech ${index + 1}`}
               width={100}
               height={100}
-              className="h-10 w-10 rounded-full"
+              className="h-8 md:h-12 w-8 md:w-12 rounded-full"
             />
           ))}
         </div>

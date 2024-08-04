@@ -23,26 +23,26 @@ function Contact() {
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-10">
-        <h4 className="text-3xl font-semibold text-center">
+      <div className="flex flex-col space-y-5 md:space-y-10">
+        <h4 className="text-lg md:text-3xl font-semibold text-center">
           I have just what you need.{" "}
           <span className="underline decoration-[#0AABF7]/50">Lets Talk.</span>
         </h4>
 
-        <div className="space-y-5">
+        <div className="space-y-2 md:space-y-5">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#0AABF7] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+353 083 047 3631</p>
+            <PhoneIcon className="text-[#0AABF7] h-4 md:h-7 w-4 md:w-7 animate-pulse" />
+            <p className="text-lg md:text-2xl">+353 083 047 3631</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#0AABF7] h-7 w-7 animate-pulse" />
-            <p className="text-2xl"> lajara.agullo@gmail.com</p>
+            <EnvelopeIcon className="text-[#0AABF7] h-4 md:h-7 w-4 md:w-7 animate-pulse" />
+            <p className="text-lg md:text-2xl"> lajara.agullo@gmail.com</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#0AABF7] h-7 w-7 animate-pulse" />
-            <p className="text-2xl"> Dublin, Ireland</p>
+            <MapPinIcon className="text-[#0AABF7] h-4 md:h-7 w-4 md:w-7 animate-pulse" />
+            <p className="text-lg md:text-2xl"> Dublin, Ireland</p>
           </div>
         </div>
 
@@ -64,7 +64,6 @@ function Contact() {
               type="email"
             />
           
-
           <input
             {...register("subject")}
             placeholder="Subject"
