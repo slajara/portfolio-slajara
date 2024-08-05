@@ -15,7 +15,7 @@ function About() {
         About
       </h3>
 
-      <div className="mt-32 mb-10 flex flex-col md:flex-row items-center space-y-5 md:space-y-0">
+      <div className="flex flex-col md:flex-row items-center space-y-5 md:space-y-0">
         <motion.div
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 1.2 }}

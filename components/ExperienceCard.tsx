@@ -22,7 +22,7 @@ export const ExperienceCard: React.FC<ExperiencesProps> = ({
 }) => {
   return (
     <article
-      className="flex flex-col rounded-lg items-center md:space-y-5 flex-shrink-0 w-[220px] md:w-[700px] xl:w-[900px] 
+      className="flex flex-col rounded-lg items-center md:space-y-5 flex-shrink-0 w-[230px] md:w-[700px] xl:w-[900px] 
     snap-center bg-[#292929] p-2 md:p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
     >
       <motion.img

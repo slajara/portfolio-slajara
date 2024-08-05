@@ -37,7 +37,7 @@ const SkillCard: React.FC<CombinedProps> = ({
       >
         <div className="flex flex-col items-center justify-center h-full">
           <p className="text-1xl md:text-3xl font-bold text-black opacity-100">{level}</p>
-          <p className="text-xs md:text-1xl font-bold text-black opacity-100">{tech}</p>
+          <p className="text-xs md:text-lg font-bold text-black opacity-100">{tech}</p>
         </div>
       </div>
     </div>
