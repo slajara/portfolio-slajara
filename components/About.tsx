@@ -15,19 +15,19 @@ function About() {
         About
       </h3>
 
-      <div className="mt-32 mb-12 flex flex-col md:flex-row items-center space-y-10 md:space-y-0">
+      <div className="mt-32 mb-10 flex flex-col md:flex-row items-center space-y-5 md:space-y-0">
         <motion.div
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 1.2 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className="mb-0 md:mb-0 flex-shrink-0 w-56 h-56 md:w-[350px] md:h-[450px] xl:w-[500px] xl:h-[600px] rounded-full overflow-hidden md:rounded-lg"
+          className="mb-0 flex-shrink-0 w-32 h-32 md:w-[350px] md:h-[450px] xl:w-[500px] xl:h-[600px] rounded-full overflow-hidden md:rounded-lg"
           >
             <Image
               src="/me/about.jpg"
               alt="Me"
               width={3000}
-              height={4000}
+              height={3000}
               className="object-cover"
               priority={true}
             />
