@@ -29,7 +29,7 @@ const SkillCard: React.FC<CombinedProps> = ({
         animate={{ opacity: 1, x: 0 }}
         src={img}
         className="rounded-full border border-gray-500 object-cover object-center w-16 h-16 md:h-28 md:w-28 xl:w-32 xl:h-32 
-        filter  group-hover:grayscale transition duration-300 ease-in-out"
+        filter group-hover:grayscale transition duration-300 ease-in-out"
       />
       <div
         className="absolute opacity-0 group-hover:opacity-80 transition duration-300

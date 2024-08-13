@@ -22,7 +22,7 @@ export const ExperienceCard: React.FC<ExperiencesProps> = ({
 }) => {
   return (
     <article
-      className="flex flex-col rounded-lg items-center md:space-y-5 flex-shrink-0 w-[230px] md:w-[700px] xl:w-[900px] 
+      className="flex flex-col rounded-lg items-center md:space-y-5 flex-shrink-0 w-[230px] md:w-[700px] xl:w-[800px] xl:h-[550px] 
     snap-center bg-[#292929] p-2 md:p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden"
     >
       <motion.img
@@ -32,7 +32,7 @@ export const ExperienceCard: React.FC<ExperiencesProps> = ({
         viewport={{ once: true }}
         src={img}
         alt="Me"
-        className="w-20 h-20 md:w-32 md:h-32 rounded-full xl:w-[200px] xl:h-[200px] object-contain object-center"
+        className="w-20 h-20 md:w-32 md:h-32 rounded-full xl:w-[200px] xl:h-[100px] object-contain object-center"
       />
       <div className="px-0 md:px-10">
         <h4 className="text-xl md:text-3xl xl:text-4xl font-bold">{position}</h4>
@@ -51,7 +51,7 @@ export const ExperienceCard: React.FC<ExperiencesProps> = ({
           ))}
         </div>
 
-        <p className="uppercase py-2 md:py-5 text-gray-300 text-xs md:text-base xl:text-lg"> {date} </p>
+        <p className="uppercase py-2 md:py-3 text-gray-300 text-xs md:text-base xl:text-lg"> {date} </p>
         <ul className="list-disc space-y-2 ml-5 text-xs md:text-base xl:text-lg">
           {functions.map((func, index) => (
             <li key={index}>{func}</li>

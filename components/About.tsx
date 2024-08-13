@@ -21,7 +21,7 @@ function About() {
           transition={{ duration: 1.2 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className="mb-0 flex-shrink-0 w-32 h-32 md:w-[350px] md:h-[450px] xl:w-[500px] xl:h-[600px] rounded-full overflow-hidden md:rounded-lg"
+          className="mb-0 flex-shrink-0 w-32 h-32 md:w-[350px] md:h-[450px] xl:w-[450px] xl:h-[550px] rounded-full overflow-hidden md:rounded-lg"
           >
             <Image
               src="/me/about.jpg"
