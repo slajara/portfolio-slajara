@@ -16,6 +16,22 @@ export const projectsData: ProjectsProps[] = [
     url: "https://marketplace-mr-crypto.vercel.app/",
   },
   {
+    img: "/projects/lusery.png",
+    project: "Lusery Blog",
+    description:
+     "(Currently in development) Blog platform with backend powered by Ghost CMS deployed on Railway, and frontend built with Next.js and TypeScript.",
+    github: "https://github.com/LuseryLabs/lusery",
+    url: "https://luserylabs.up.railway.app/",
+  },
+  {
+    img: "/projects/portfolio.png",
+    project: "Personal Portfolio",
+    description:
+     "Responsive web portfolio built with Next.js and TypeScript.",
+    github: "https://github.com/slajara/portfolio-slajara",
+    url: "https://www.slajara.com/",
+  },
+  {
     img: "/projects/trello.png",
     project: "Trello 2.0",
     description:
