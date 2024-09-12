@@ -36,16 +36,15 @@ function About() {
         <div className="space-y-10 px-0 md:px-10">
           <p className="text-sm md:text-base xl:text-lg
           ">
-            Hi! My name is Samuel Lajara and I am passionate about software.{" "}
             <span className="underline decoration-[#0AABF7]">
               Engineer and developer with 2 years of experience
             </span>
             , originally from Spain, and currently living in Dublin, Ireland.
+            <br />
+            <br />
             With a solid background in computer science, I enjoy coding, solving
             complex problems, and creating innovative solutions. One of my greatest strengths is the ability to tackle
-            challenges with a logical and analytical mindset. I look forward to
-            sharing my passion for technology and contributing my experience to
-            interesting and challenging projects.
+            challenges with a logical and analytical mindset. 
           </p>
         </div>
       </div>
