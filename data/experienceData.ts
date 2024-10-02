@@ -27,14 +27,14 @@ export const experiencesData: ExperiencesProps[] = [
   {
     img: "company/mrcrypto.png",
     position: "FullStack Web 3.0",
-    company: "Mr. Crypto NFT Community",
+    company: "Mr.Crypto NFT",
     tech: [
       "skills/typescript.svg",
       "skills/nextjs.svg",
       "skills/nodejs.svg",
       "skills/solidity.svg",
     ],
-    date: "SEP/2023 .. - FEB/2024",
+    date: "",
     functions: [
       "Developed an NFT marketplace as part of a collaborative team using SCRUM methodology",
       "Created a mock collection of ERC721 and E7L tokens.",
