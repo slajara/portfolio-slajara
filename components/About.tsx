@@ -22,29 +22,30 @@ function About() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           className="mb-0 flex-shrink-0 w-32 h-32 md:w-[350px] md:h-[450px] xl:w-[450px] xl:h-[550px] rounded-full overflow-hidden md:rounded-lg"
-          >
-            <Image
-              src="/me/about.jpg"
-              alt="Me"
-              width={3000}
-              height={3000}
-              className="object-cover"
-              priority={true}
-            />
+        >
+          <Image
+            src="/me/about.jpg"
+            alt="Me"
+            width={3000}
+            height={3000}
+            className="object-cover"
+            priority={true}
+          />
         </motion.div>
 
         <div className="space-y-10 px-0 md:px-10">
-          <p className="text-sm md:text-base xl:text-lg
-          ">
+          <p className="text-sm md:text-base xl:text-lg">
             <span className="underline decoration-[#0AABF7]">
-              Engineer and developer with 2 years of experience
+              Web3 Enthusiast & Code Magician
             </span>
-            , originally from Spain, and currently living in Dublin, Ireland.
+            , creating a decentralized future with every line of code.
             <br />
             <br />
-            With a solid background in computer science, I enjoy coding, solving
-            complex problems, and creating innovative solutions. One of my greatest strengths is the ability to tackle
-            challenges with a logical and analytical mindset. 
+            With a deep passion for Web3 and a knack for turning complex ideas
+            into seamless digital experiences, I thrive on building innovative,
+            user-centric solutions. Let’s make your next big idea a reality in
+            the blockchain universe, bringing creativity, security, and a touch
+            of code magic to your project!
           </p>
         </div>
       </div>

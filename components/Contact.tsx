@@ -32,7 +32,7 @@ function Contact() {
         <div className="space-y-2">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#0AABF7] h-4 w-4 animate-pulse" />
-            <p className="text-lg md:text-2xl">+353 083 047 3631</p>
+            <p className="text-lg md:text-2xl">+376 357 232</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
@@ -42,7 +42,7 @@ function Contact() {
 
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="text-[#0AABF7] h-4 w-4 animate-pulse" />
-            <p className="text-lg md:text-2xl"> Dublin, Ireland</p>
+            <p className="text-lg md:text-2xl"> Andorra</p>
           </div>
         </div>
 

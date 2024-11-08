@@ -26,9 +26,9 @@ export const skillsData: SkillsProps[] = [
     level: "90%",
   },
   {
-    tech: "HTML5",
-    img: "skills/html.svg",
-    level: "90%",
+    tech: "Angular",
+    img: "skills/angular.svg",
+    level: "50%",
   },
   {
     tech: "CSS3",
